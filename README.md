@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Money Control
 
 Project startup -> `yarn start`
 
