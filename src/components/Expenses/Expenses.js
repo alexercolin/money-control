@@ -6,11 +6,12 @@ const Expenses = (props) => {
   const items = props.data;
   return (
     <Card className="expenses">
-      {items.map((index) => (
+      {items.map((index, i) => (
         <ExpenseItem
           date={index.date}
           title={index.title}
           amount={index.amount}
+          key={i}
         />
       ))}
     </Card>
