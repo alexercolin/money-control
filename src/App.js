@@ -1,7 +1,7 @@
 import "./App.css";
 import Expenses from "./components/Expenses/Expenses";
 
-function App() {
+const App = () => {
   const expenses = [
     { date: new Date(), title: "Car insurance", amount: 294.67 },
     { date: new Date(2021, 5, 3), title: "Toilet Paper", amount: 5.99 },
@@ -17,6 +17,6 @@ function App() {
       </div>
     </>
   );
-}
+};
 
 export default App;
