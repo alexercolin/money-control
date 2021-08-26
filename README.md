@@ -1,5 +1,6 @@
 # Getting Started with Money Control
 
+Project dependecies -> `yarn`
 Project startup -> `yarn start`
 
 Runs the app in the development mode.\
