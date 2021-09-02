@@ -6,16 +6,15 @@ import "./Expenses.css";
 
 const Expenses = (props) => {
   const { data: items } = props;
-  const [filter, setFilter] = useState("2022");
+  const [filteredYear, setFilter] = useState("2022");
 
-  const filterExpenseDate = (filterDate) => {
-    setFilter(filterDate);
-    console.log(filter);
+  const filterExpenseDate = (selectedYear) => {
+    setFilter(selectedYear);
   };
   return (
     <>
       <Card className="expenses">
-        <ExpenseFilter onAddFilterExpenses={filterExpenseDate} />
+        <ExpenseFilter selected={filteredYear} onAddFilterExpenses={filterExpenseDate} />
         {items.map((index, i) => (
           <ExpenseItem
             date={index.date}
