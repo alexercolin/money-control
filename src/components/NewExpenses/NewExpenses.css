@@ -36,10 +36,3 @@
   .new-expense button.alternative:active {
     background-color: #ddb3f8;
   }
-
-
-  .new-expense button:nth-child(2) {
-    position: relative;
-    top: -3.5rem;
-    left: 8.5rem;
-  }

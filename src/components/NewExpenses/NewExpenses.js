@@ -14,21 +14,19 @@ const NewExpenses = (props) => {
   };
 
   const handleShow = () => setShowForm(true);
-  const cancelShow = () => setShowForm(false);
+  const handleHide = () => setShowForm(false);
+
   return (
     <>
       <div className="new-expense">
         {showForm && (
           <NewExpenseForm
+            onHideForm={handleHide}
             showForm={showForm}
             onAddExpenses={newExpensesInput}
           />
         )}
         {showForm || <button onClick={handleShow}>Add New Expenses</button>}
-        {showForm && (
-        <button onClick={cancelShow}>
-          Cancel
-        </button>)}
       </div>
     </>
   );
