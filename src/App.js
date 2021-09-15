@@ -35,9 +35,9 @@ const App = () => {
       <div></div>
       <div className="App">
         <NewExpenses onAddExpenses={newExpensesInput} />
-        <ExpenseChart />
         <Expenses data={expenses} />
-      </div>
+        <ExpenseChart data={expenses} />
+x      </div>
     </>
   );
 };
