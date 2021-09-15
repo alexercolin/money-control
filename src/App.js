@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Expenses from "./components/Expenses/Expenses";
 import NewExpenses from "./components/NewExpenses/NewExpenses";
+import ExpenseChart from "./components/ExpensesChart/ExpenseChart";
 
 const DUMMY_EXPENSES = [
   { id: "e1", date: new Date(), title: "Car insurance", amount: 294.67 },
@@ -34,6 +35,7 @@ const App = () => {
       <div></div>
       <div className="App">
         <NewExpenses onAddExpenses={newExpensesInput} />
+        <ExpenseChart />
         <Expenses data={expenses} />
       </div>
     </>
