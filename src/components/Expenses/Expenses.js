@@ -6,14 +6,14 @@ import "./Expenses.css";
 
 const Expenses = (props) => {
   const { data: items } = props;
-  const [filteredYear, setFilter] = useState("2020");
+  const [filteredYear, setFilter] = useState("1");
 
-  const filterChangeHandler = (selectedYear) => {
-    setFilter(selectedYear);
+  const filterChangeHandler = (selectedMonth) => {
+    setFilter(selectedMonth);
   };
 
   const filterExpenses = items.filter((expense) => {
-    return expense.date.getFullYear().toString() === filteredYear;
+    return expense.date.getMonth().toString() === filteredYear;
   });
 
   return (
