@@ -11,6 +11,7 @@ const ExpenseChart = (props) => {
     <>
       <div className="expense-chart">
         <Bar
+        
           data={{
             labels: [
               "Jan",
@@ -30,8 +31,8 @@ const ExpenseChart = (props) => {
               {
                 label: "# of expenses",
                 data: amountCollection,
-                backgroundColor: ["#40005d"],
-                borderColor: ["#40005d"],
+                backgroundColor: ["#7302a3"],
+                borderColor: ["#7302a3"],
                 borderWidth: 1,
               },
             ],
