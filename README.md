@@ -2,8 +2,8 @@
     <img src="https://ik.imagekit.io/ins9ecquwr9/Captura_de_tela_de_2021-09-18_15-56-41_9SSDKgThx.png?updatedAt=1631991423552"
 </h1>
 
-<h1>
-    <img src="public/apresentacao.gif">
+<h1 align="center">
+    <img  src="https://ik.imagekit.io/ins9ecquwr9/money-control_C9jMLSXGM.gif?updatedAt=1631994788602">
 </h1>
 
 # Summary
