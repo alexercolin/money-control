@@ -1,8 +1,48 @@
-# Getting Started with Money Control
+<h1 align="center">
+    <img src="https://ik.imagekit.io/ins9ecquwr9/Captura_de_tela_de_2021-09-18_15-56-41_9SSDKgThx.png?updatedAt=1631991423552"
+</h1>
 
-Project dependecies -> `yarn`
-Project startup -> `yarn start`
+<h1>
+    <img src="public/apresentacao.gif">
+</h1>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Summary
 
+- [About](#-sobre)
+- [Techs](#-tecnologias-utilizadas)
+- [Setup](#-como-baixar-o-projeto)
+
+## 🔖&nbsp; About
+
+The project **Money Control** is a web app to help you to control your daily expenses during the year to save money to reach your personal goals.Created during the React Complete guide by Maximilian Schwarzmüller.
+
+---
+
+## 🚀 Techs
+  
+The project was developed using the following technologys
+
+- [ReactJS](https://reactjs.org)
+- [Chart.js](https://www.chartjs.org/)
+---
+
+## 🗂 Setup
+
+```bash
+
+    # Clone the repository
+    $ git clone https://github.com/alexercolin/money-control
+
+    # Go to the directory
+    $ cd money-control
+
+    # install dependencies
+    $ yarn install
+
+    # Start the project
+    $ yarn start
+```
+
+---
+
+developed 💜 by Alex Ercolin Oliveira
